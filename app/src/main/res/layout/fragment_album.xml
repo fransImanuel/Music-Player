@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumFragment">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_baseline_emoji_people"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/black"
+        android:id="@+id/foto"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00000028631\nFrans Imanuel\nKelas : BL"
+        app:layout_constraintTop_toBottomOf="@+id/foto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/nim"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/nim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Refrensi : "
+        android:textStyle="bold"
+        android:id="@+id/textRefrensi" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/textRefrensi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.youtube.com/watch?v=IauxP5xgu_s&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=2\n\nhttps://www.youtube.com/watch?v=sAVXRkI2ihI&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=3\n\nhttps://www.youtube.com/watch?v=prxqc-B1h1w&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=4\n\nhttps://www.youtube.com/watch?v=ju-KCs3Iibg&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=5\n\nhttps://www.youtube.com/watch?v=uI9-KdxA8hY&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=6\n\nhttps://www.youtube.com/watch?v=3HY1BpQJ-NY&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=7\n\nhttps://www.youtube.com/watch?v=r7B9S3S1xPI&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=8"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
